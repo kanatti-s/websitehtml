@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ログイン画面</title>
+          
+<body>
+    <h1>過去問閲覧サイトログイン画面</h1>
+    <h2>パスワードを入力してください</h2>
+
+<input id="password-input" type="password"> 
+<input type='button' value="送信" onclick="check()"> 
+<script> 
+function check(){ 
+if(document.getElementById("password-input").value=="1234"){ 
+location.href ='subjectchoice.html'; 
+} 
+} 
+</script>
+</body>
+</html>
